@@ -1,15 +1,26 @@
-import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaPhone, FaTwitter, FaUser } from "react-icons/fa";
+import { IoHome } from "react-icons/io5";
+import { VscProject } from "react-icons/vsc";
 
 
 export default function Header(){
     
     return(
-        <header className="flex justify-between items-center bg-[#1B1B1B] w-[80%] h-[70px] mx-auto p-3">
-                <ul className="flex justify-around w-full text-[#9C9C9C] font-medium">
-                    <li className="my-4" >Início</li>
-                    <li className="my-4" >Sobre</li>
-                    <li className="my-4" >Projetos</li>
-                </ul>
+        <header className="flex bg-[#1B1B1B] rounded-t-xl rounded-b-xl h-[60%] mx-auto p-5">
+            <div className="flex flex-col items-center justify-around">
+                <div className="relative cursor-pointer bg-white rounded-full p-3 hover:z-0 transition-colors duration-300">
+                    <IoHome className={`z-10 `} />
+                </div>
+                <div className="relative cursor-pointer hover:bg-white rounded-full hover:rounded-full hover:p-3 hover:z-0 transition-colors duration-300">
+                    <FaUser />  
+                </div>
+                <div className="relative cursor-pointer hover:bg-white rounded-full hover:rounded-full hover:p-3 hover:z-0 transition-colors duration-300">
+                    <VscProject />
+                </div>
+                <div className="relative cursor-pointer hover:bg-white rounded-full hover:rounded-full hover:p-3 hover:z-0 transition-colors duration-300">
+                    <FaPhone />
+                </div>
+            </div>  
         </header>
     );
 }

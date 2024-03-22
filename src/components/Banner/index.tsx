@@ -1,4 +1,3 @@
-import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 
 export default function Banner(){
@@ -20,7 +19,7 @@ export default function Banner(){
                 </p>
                 <div className="flex gap-3">
                     <button className="bg-gradient-to-r from-[#3333ff] to-[#004080] text-white text-sm rounded-xl w-40 h-8">BAIXAR CV</button>
-                    <button className="text-black dark:text-white text-sm border border-[#0080ff] hover:bg-[#3333ff] hover:text-white transition duration-500 rounded-xl w-40 h-8">Entrar em contato</button>
+                    <button className="text-black dark:text-white text-sm border border-[#0080ff] -hover:scale-110 transition-transform hover:bg-[#3333ff] hover:text-white rounded-xl w-40 h-8">Entrar em contato</button>
                 </div>
             </div>
             <div className="relative w-[70%]">

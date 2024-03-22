@@ -19,7 +19,17 @@ export default function Projects(){
                 </div>
             </div>
             <div>
-                <h1>Todos os Projetos</h1>
+                <div>
+                    <h1 className="text-white text-2xl font-bold">Todos os Projetos</h1>
+                    <div className="w-40 h-[4px] bg-[#3333ff]"/>
+                </div>
+                <div className="flex flex-wrap justify-around w-[80%] mx-auto gap-10">
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                </div>
             </div>
         </section>
     );

@@ -2,12 +2,11 @@ import Banner from "@/components/Banner";
 import Header from "@/components/Header";
 import Projects from "@/components/Projects";
 import Sobre from "@/components/Sobre";
-import WorkWith from "@/components/WorkedWith";
 
 export default function Home() {
   return (
     <main className="flex flex-col justify-around">
-        <div className="flex items-center bg-[#dbdada] drak:bg-[#07071d] h-screen -z-10">
+        <div className="flex items-center bg-[#dbdada] drak:bg-[#07071d] h-screen">
           <Banner/>
           <Header/>
         </div>

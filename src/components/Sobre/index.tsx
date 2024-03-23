@@ -7,7 +7,7 @@ import { GrGraphQl } from "react-icons/gr";
 
 export default function Sobre(){
     return(
-        <div>
+        <section>
             <div className="w-[900px] mx-auto mt-20 space-y-4">
             <h1 className="text-white text-3xl font-semibold text-center">Sobre mim</h1>
             <p className="text-white font-medium text-center">
@@ -37,6 +37,6 @@ export default function Sobre(){
                     <Skils title='React.js' icon={<SiRedux className="text-[#3333ff]" size={50} />}/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

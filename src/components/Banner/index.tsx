@@ -2,7 +2,7 @@
 
 export default function Banner(){
     return(
-        <div className="flex w-[80%] justify-between items-center mx-auto">
+        <section className="flex w-[80%] justify-between items-center mx-auto">
             <div className="w-[30%] space-y-10">
                 <h1 className="text-balck dark:text-[#D9D9D9] font-semibold text-3xl">Olá! eu sou o <strong className="font-bold text-[#3333ff]">Rolemberg Junior</strong>!</h1>
                 <div className="w-64 h-[2px] bg-[black]"/>
@@ -31,6 +31,6 @@ export default function Banner(){
                 />
                 <div className="absolute right-64 -top-2 bg-[#a1a1a1] w-[500px] h-[500px] rounded-full opacity-40 -z-10" />
             </div>
-        </div>
+        </section>
     );
 }

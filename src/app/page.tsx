@@ -10,8 +10,8 @@ import AllProjects from "@/components/AllProjects";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-around">
-          <section className={` flex items-center bg-[#dbdada] drak:bg-[#07071d] h-screen`}>
+    <main className="relative flex flex-col justify-around">
+          <section className={`flex items-center bg-[#dbdada] drak:bg-[#07071d] h-screen`}>
               <Banner/>
               <Header/>
           </section>
